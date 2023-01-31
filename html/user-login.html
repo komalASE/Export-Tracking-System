@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#eaeaea">
+    <link rel="stylesheet" href="../css/user-login.css">
+    <script src="https://kit.fontawesome.com/09bc23e127.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!--------------HEADER--------------------------------------------->
+    <div class="main">
+        <div class="top-nav">
+            <p style="color: white; text-align: center; padding-top: 5px;"> PLEASE NOTE! We have maintenance planned
+                this weekend and there will be some interruptions.Thank you.</p>
+        </div>
+
+        <div class="navbar">
+            <img class="logo" src="../Image/logo.png">
+            <ul>
+                <li><a style="
+                    width: 90px;
+                    margin-right: 4px;
+                    border-radius: 5px;" href="../html/index.html">Home</a>
+
+                <li><a style="
+                width: 90px;
+                margin-right: 4px;
+                border-radius: 5px;" href="../html/product.html">Product</a></li>
+
+                <li><a style="
+                width: 90px;
+                text-align: center;
+                border-radius: 5px;" href="../html/signUp.html">Sign Up</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--------------HEADER END----------------------------------------->
+
+    <div class="container">
+        <div class="form-box">
+            <h1>Log In</h1>
+            <form method="post" onsubmit="formSubmission(event)">
+                <!-- <form method="post" onsubmit="result"> -->
+                <div class="input-group">
+
+
+                    <div class="input-field">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" name="email" placeholder="Email">
+                    </div>
+
+                    <div class="input-field">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" name="password" autocomplete="on" placeholder="**********">
+                    </div>
+
+                    <p>Forget Password <a href="../html/index.html">Click Here !!</a> </p>
+
+                </div>
+
+                <div class="btn-field" name="button">
+                    <button type="submit"> Login </button>
+                    <!-- <button class="disable" type="button" name="button"> Sign Up</button> -->
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <!-------------------------------LOWER-FOOTER-START------------------------------------>
+    <div class="lowerFooter">
+        <p style="text-align: center;">Copyrights © 2023 All Rights Reserved by EnviaShipping.</p>
+    </div>
+    <!-------------------------------LOWER-FOOTER-END-------------------------------------->
+
+    <script src="../javascript/user-login.js"></script>
+
+</body>
+
+</html>
